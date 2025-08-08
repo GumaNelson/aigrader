@@ -1,0 +1,55 @@
+name: uneb_ai_grader
+description: "UNEB AI Essay Grader"
+publish_to: 'none'
+version: 1.0.0+7
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core & State Management
+  shared_preferences: ^2.2.3
+
+  # File & Image Handling
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  excel: ^2.1.0
+  path: ^1.9.0
+  permission_handler: ^11.3.1
+  flutter_image_compress: ^2.3.0
+
+  # Networking & Data Handling
+  http: ^1.2.1
+  csv: ^5.0.2
+  convert: ^3.1.1
+
+  # Sharing & External Interaction
+  url_launcher: ^6.1.11
+
+  # Cryptography
+  crypto: ^3.0.3
+
+  # UI Helpers
+  cupertino_icons: ^1.0.2
+  intl: ^0.19.0
+
+  # Markdown + LaTeX Rendering
+  markdown: ^7.3.0
+  flutter_markdown: ^0.7.1
+  image: ^4.1.3
+
+  # Server-like behavior (for future local hosting or tools)
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
